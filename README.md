@@ -11,4 +11,4 @@ Get freecourse list when I select course in the university from our school‘s c
 
 #### 说明
 1. `testlongestconn` 类似`心跳检测`，保证连接alive
-2. linux下 ##永久挂起## : `nohup python3 getdatabypost.py &`
+2. linux下 **永久挂起** : `nohup python3 getdatabypost.py &`
