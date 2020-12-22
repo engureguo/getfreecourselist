@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "checkheartbeat.py", line 48, in <module>
+    logger('请求成功！','i=',str(i),time.asctime( time.localtime(time.time())))
+TypeError: logger() takes 1 positional argument but 4 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "checkheartbeat.py", line 50, in <module>
+    logger('请求失败。。。','i=',str(i),time.asctime( time.localtime(time.time())))
+TypeError: logger() takes 1 positional argument but 4 were given
+Traceback (most recent call last):
+  File "checkheartbeat.py", line 48, in <module>
+    logger('请求成功！','i=',str(i),time.asctime( time.localtime(time.time())))
+TypeError: logger() takes 1 positional argument but 4 were given
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "checkheartbeat.py", line 50, in <module>
+    logger('请求失败。。。','i=',str(i),time.asctime( time.localtime(time.time())))
+TypeError: logger() takes 1 positional argument but 4 were given
+  File "checkheartbeat.py", line 48
+    logger('请求成功！ '+'i='str(i)+" "+time.asctime( time.localtime(time.time())))
+                          ^
+SyntaxError: invalid syntax
